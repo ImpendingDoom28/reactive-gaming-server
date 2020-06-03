@@ -1,0 +1,13 @@
+package ru.sergey.siggil;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SiggilApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(SiggilApplication.class, args);
+    }
+
+}
